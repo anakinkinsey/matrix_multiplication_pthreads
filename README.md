@@ -17,9 +17,11 @@ make-matrix
     -l: lower bound for rand number generator
     -u: upper bound
     -o outputfile (typically in the form of #.dat)
+    
 print-matrix
   - prints a matrix created with make-matrix
   - execute with `print-matrix -i infile.dat`
+  
 pth_mat_vect_rand_split.c
  - multiplies two matrices together and outputs the resultant matrix and time stats. This is done in the form of Ax=y
  - execute with `./pth_mat_vect_rand_split  -t <thread_count> -A <A.dat> -x <x.dat> -y <y.dat>`
